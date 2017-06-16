@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\MovieLibrary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f0e693c3cefbdfad0d7d37ad83e9a59c2640ec56">
+        <dex dex="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\MovieLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ebc7b1e433919b81c49d6bb6130be6cc9a23105d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\MovieLibrary\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\MovieLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_79bed7bfdf406cd8c396b0a312a1dc79f62c0e5f\classes.dex" />
+    </item>
+
+</items>
