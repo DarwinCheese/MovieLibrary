@@ -4,31 +4,22 @@ var routes_v1 = require('./api/routes_v1');
 var routes_films = require('./api/routes_films');
 var routes_rentals = require('./api/routes_rentals');
 var bodyParser =  require('body-parser');
-var auth_routes_v1 = require('./api/auth_routes_v1');
 var config = require('./config/config');
 var db = require('./config/db');
 var expressJWT = require('express-jwt');
-
 var app = express();
 
 app.use(bodyParser.urlencoded({ 'extended': 'true' })); // parse application/x-www-form-urlencoded
 app.use(bodyParser.json()); // parse application/json
 app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
 
-app.use(expressJWT({
+app.use('/api/v1/rentals', expressJWT({
     secret: config.secretkey
-}).unless({
-    path: [
-        { url: '/api/v1/login', methods: ['POST'] },
-        { url: '/api/v1/register', methods: ['POST'] }
-    ]
 }));
 
 app.use('/api/v1', routes_v1);
-app.use('/api/v1/films', routes_films);
-app.use('/api/v1/rentals', routes_rentals);
-
-
+app.use('/api/v1', routes_films);
+app.use('/api/v1', routes_rentals);
 
 app.use(function(err, req, res, next) {
     // console.dir(err);
