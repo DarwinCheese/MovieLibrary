@@ -18,7 +18,7 @@ routes.post('/login', function(req, res) {
     // Kijk of de gegevens matchen. Zo ja, dan token genereren en terugsturen.
     db.query('SELECT * FROM customer WHERE email = ?', [email], function (error, results, fields) {
       if (error) {
-        // console.log("error ocurred",error);
+        console.log("error ocurred",error);
         res.send({
           "code":400,
           "failed":"error ocurred"
