@@ -17,10 +17,11 @@
         tools:layout_editor_absoluteX="8dp">
 
         <!--  Username Label -->
-        <TextView android:layout_width="fill_parent"
+        <TextView
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="#372c24"
-            android:text="Username"/>
+            android:text="Email"
+            android:textColor="#372c24" />
 
         <EditText android:layout_width="fill_parent"
             android:id="@+id/edittextUsername"
