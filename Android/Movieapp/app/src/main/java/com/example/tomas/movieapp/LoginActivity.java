@@ -83,7 +83,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         // Maak een JSON object met username en password. Dit object sturen we mee
         // als request body (zoals je ook met Postman hebt gedaan)
         //
-        String body = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
+        String body = "{\"e-mail\":\"" + username + "\",\"password\":\"" + password + "\"}";
         Log.i(TAG, "handleLogin - body = " + body);
 
         try {
