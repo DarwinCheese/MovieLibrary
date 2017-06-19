@@ -26,13 +26,13 @@ import org.json.JSONObject;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private EditText editTextUsername;
+    private EditText editTextEmail;
     private EditText editTextPassword;
     private TextView txtLoginErrorMsg;
     private Button btnLogin;
     private Button btnRegister;
 
-    private String mUsername;
+    private String mEmail;
     private String mPassword;
 
     public final String TAG = this.getClass().getSimpleName();
@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        editTextUsername = (EditText) findViewById(R.id.edittextUsername);
+        editTextEmail = (EditText) findViewById(R.id.edittextUsername);
         editTextPassword = (EditText) findViewById(R.id.edittextPassword);
         txtLoginErrorMsg = (TextView) findViewById(R.id.txtLoginErrorMessage);
         btnLogin = (Button) findViewById(R.id.btnLogin);
@@ -58,12 +58,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         switch (v.getId()) {
 
             case R.id.btnLogin:
-                mUsername = editTextUsername.getText().toString();
+                mEmail = editTextEmail.getText().toString();
                 mPassword = editTextPassword.getText().toString();
                 txtLoginErrorMsg.setText("");
 
                 //  Checken of username en password niet leeg zijn
-                handleLogin(mUsername, mPassword);
+                handleLogin(mEmail, mPassword);
 
 
                 break;
@@ -78,12 +78,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
 
     }
-    private void handleLogin(String username, String password) {
+    private void handleLogin(String email, String password) {
         //
         // Maak een JSON object met username en password. Dit object sturen we mee
         // als request body (zoals je ook met Postman hebt gedaan)
         //
-        String body = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
+        String body = "{\"email\":\"" + email
+                + "\",\"password\":\"" + password + "\"}";
         Log.i(TAG, "handleLogin - body = " + body);
 
         try {
@@ -95,7 +96,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         public void onResponse(JSONObject response) {
                             // Succesvol response - dat betekent dat we een geldig token hebben.
                             txtLoginErrorMsg.setText("Response: " + response.toString());
-                            displayMessage("Succesvol ingelogd!");
+                            //displayMessage("Succesvol ingelogd!");
 
                             // We hebben nu het token. We kiezen er hier voor om
                             // het token in SharedPreferences op te slaan. Op die manier
@@ -104,18 +105,18 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             try {
                                 String token = response.getString("token");
 
-                                Context context = getApplicationContext();
-                                SharedPreferences sharedPref = context.getSharedPreferences(
-                                        getString(R.string.preference_file_key), Context.MODE_PRIVATE);
-                                SharedPreferences.Editor editor = sharedPref.edit();
-                                editor.putString(getString(R.string.saved_token), token);
-                                editor.commit();
+//                                Context context = getApplicationContext();
+//                                SharedPreferences sharedPref = context.getSharedPreferences(
+//                                        getString(R.string.preference_file_key), Context.MODE_PRIVATE);
+//                                SharedPreferences.Editor editor = sharedPref.edit();
+//                                editor.putString(getString(R.string.saved_token), token);
+//                                editor.commit();
 
                                 // Start the MovieList activity, and close the login activity
-                                Intent main = new Intent(getApplicationContext(), MovieList.class);
-                                startActivity(main);
-                                // Close the current activity
-                                finish();
+//                                Intent main = new Intent(getApplicationContext(), MovieList.class);
+//                                startActivity(main);
+//                                // Close the current activity
+//                                finish();
 
                             } catch (JSONException e) {
                                 // e.printStackTrace();
@@ -162,7 +163,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             }
         } else if(error instanceof com.android.volley.NoConnectionError) {
             Log.e(TAG, "handleErrorResponse: server was niet bereikbaar");
-            txtLoginErrorMsg.setText(getString(R.string.error_server_offline));
+            txtLoginErrorMsg.setText("server offline");
         } else {
             Log.e(TAG, "handleErrorResponse: error = " + error);
         }
@@ -189,4 +190,4 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
 
 
-        }
+
