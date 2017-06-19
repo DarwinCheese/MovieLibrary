@@ -70,9 +70,9 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
                  //Start the Login activity, and close the login activity
                                Intent main = new Intent(getApplicationContext(), LoginActivity.class);
-                               startActivity(main);
-                               // Close the current activity
-                               finish();
+                startActivity(main);
+                // Close the current activity
+                finish();
 
 
                 break;
@@ -117,7 +117,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
 //
 
-                                // Start the MovieList activity, and close the login activity
+                                //Start the MovieList activity, and close the login activity
 //                                Intent main = new Intent(getApplicationContext(), MovieList.class);
 //                                startActivity(main);
 //                                // Close the current activity
