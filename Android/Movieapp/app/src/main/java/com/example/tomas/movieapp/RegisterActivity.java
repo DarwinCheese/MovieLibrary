@@ -1,5 +1,6 @@
 package com.example.tomas.movieapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -67,6 +68,12 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 //  Checken of username en password niet leeg zijn
                 handleRegister(mREmail, mRFirstName, mRLastName, mRPassword);
 
+                 //Start the Login activity, and close the login activity
+                               Intent main = new Intent(getApplicationContext(), LoginActivity.class);
+                               startActivity(main);
+                               // Close the current activity
+                               finish();
+
 
                 break;
 
@@ -108,12 +115,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                                 Log.i(TAG, "handleRegister - body = " + token);
 
 
-//                                Context context = getApplicationContext();
-//                                SharedPreferences sharedPref = context.getSharedPreferences(
-//                                        getString(R.string.preference_file_key), Context.MODE_PRIVATE);
-//                                SharedPreferences.Editor editor = sharedPref.edit();
-//                                editor.putString(getString(R.string.saved_token), token);
-//                                editor.commit();
+//
 
                                 // Start the MovieList activity, and close the login activity
 //                                Intent main = new Intent(getApplicationContext(), MovieList.class);
