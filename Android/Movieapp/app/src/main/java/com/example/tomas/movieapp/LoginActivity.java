@@ -105,14 +105,17 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             try {
                                 String token = response.getString("token");
 
-//                                Context context = getApplicationContext();
-//                                SharedPreferences sharedPref = context.getSharedPreferences(
-//                                        getString(R.string.preference_file_key), Context.MODE_PRIVATE);
-//                                SharedPreferences.Editor editor = sharedPref.edit();
-//                                editor.putString(getString(R.string.saved_token), token);
-//                                editor.commit();
+                                Context context = getApplicationContext();
+                                SharedPreferences sharedPref = context.getSharedPreferences(
+                                        getString(R.string.preference_file_key), Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor = sharedPref.edit();
+                                editor.putString(getString(R.string.saved_token), token);
+                                editor.commit();
 
-                                // Start the MovieList activity, and close the login activity
+                                //SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+                                final String finalToken = sharedPref.getString(context.getString(R.string.saved_token), "dummy default token");
+
+                                //Start the MovieList activity, and close the login activity
 //                                Intent main = new Intent(getApplicationContext(), MovieList.class);
 //                                startActivity(main);
 //                                // Close the current activity

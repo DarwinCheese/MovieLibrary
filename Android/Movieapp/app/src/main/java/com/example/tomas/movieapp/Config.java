@@ -7,4 +7,7 @@ package com.example.tomas.movieapp;
 public class Config {
 
     public static final String URL_LOGIN ="https://node-movielibrary.herokuapp.com/api/v1/login";
+    public static final String URL_REGISTER ="https://node-movielibrary.herokuapp.com/api/v1/login";
+    public static final String URL_FILMS ="https://node-movielibrary.herokuapp.com/api/v1/login";
+    public static final String URL_RENTALS ="https://node-movielibrary.herokuapp.com/api/v1/login";
 }
