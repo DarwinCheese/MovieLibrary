@@ -52,7 +52,7 @@ routes.post('/rentals/:userid/:inventoryid', function(req, res){
         "last_update": datetime
     }
 
-	db.query('SELECT * FROM rental WHERE customer_id = ? AND inventory_id = ?', [userID, inventoryID], function (error, results, fields) {
+	db.query('SELECT * FROM view_rental WHERE customer_id = ? AND inventory_id = ?', [userID, inventoryID], function (error, results, fields) {
         if (error) {
         	//console.log(error);
             res.send({
