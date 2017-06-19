@@ -69,7 +69,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
 
             case R.id.btnRegister:
-                setContentView(R.layout.activity_register);
+                Intent main = new Intent(getApplicationContext(), RegisterActivity.class);
+                                startActivity(main);
+                                // Close the current activity
+                                finish();
 
                 break;
 
@@ -83,8 +86,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         // Maak een JSON object met username en password. Dit object sturen we mee
         // als request body (zoals je ook met Postman hebt gedaan)
         //
+
+
         String body = "{\"email\":\"" + email
                 + "\",\"password\":\"" + password + "\"}";
+
         Log.i(TAG, "handleLogin - body = " + body);
 
         try {

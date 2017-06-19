@@ -15,18 +15,19 @@
     tools:layout_editor_absoluteY="0dp"
     tools:layout_editor_absoluteX="8dp">
 
-    <!--  Username -->
-    <TextView android:layout_width="fill_parent"
+    <!--  Email -->
+    <TextView
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="#372c24"
-        android:text="Username"/>
+        android:text="Email"
+        android:textColor="#372c24" />
 
-    <EditText android:layout_width="fill_parent"
-        android:id="@+id/edittextRUsername"
+    <EditText
+        android:id="@+id/edittextREmail"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dip"
-        android:singleLine="true"
-        android:password="true"/>
+        android:singleLine="true" />
 
     <!--  First name -->
     <TextView android:layout_width="fill_parent"
@@ -47,12 +48,12 @@
         android:textColor="#372c24"
         android:text="Last Name"/>
 
-    <EditText android:layout_width="fill_parent"
+    <EditText
         android:id="@+id/edittextRLastName"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dip"
-        android:singleLine="true"
-        android:password="true"/>
+        android:singleLine="true" />
 
 
     <!--  Password -->
@@ -70,12 +71,12 @@
 
     <!-- Register Button -->
     <Button
-        android:id="@+id/btnRregister"
+        android:id="@+id/btnRRegister"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
         android:height="60dip"
-        android:layout_marginTop="130dip"
-        android:text="Register"/>
+        android:text="Register" />
 
 
 </LinearLayout>
