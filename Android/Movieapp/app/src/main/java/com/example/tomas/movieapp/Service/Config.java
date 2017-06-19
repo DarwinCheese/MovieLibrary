@@ -1,4 +1,4 @@
-package com.example.tomas.movieapp;
+package com.example.tomas.movieapp.Service;
 
 /**
  * Created by Tomas on 17-6-2017.

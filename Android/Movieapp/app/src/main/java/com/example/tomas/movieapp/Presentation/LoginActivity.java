@@ -1,4 +1,4 @@
-package com.example.tomas.movieapp;
+package com.example.tomas.movieapp.Presentation;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,6 +19,9 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.example.tomas.movieapp.R;
+import com.example.tomas.movieapp.Service.Config;
+import com.example.tomas.movieapp.Service.VolleyRequestQueue;
 
 import org.json.JSONException;
 import org.json.JSONObject;

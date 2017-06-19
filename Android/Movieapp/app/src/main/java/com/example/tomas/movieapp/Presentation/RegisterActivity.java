@@ -1,4 +1,4 @@
-package com.example.tomas.movieapp;
+package com.example.tomas.movieapp.Presentation;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -16,6 +15,10 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.example.tomas.movieapp.Presentation.LoginActivity;
+import com.example.tomas.movieapp.R;
+import com.example.tomas.movieapp.Service.Config;
+import com.example.tomas.movieapp.Service.VolleyRequestQueue;
 
 import org.json.JSONException;
 import org.json.JSONObject;

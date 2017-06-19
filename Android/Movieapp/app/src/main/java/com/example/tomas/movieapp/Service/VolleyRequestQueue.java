@@ -1,4 +1,4 @@
-package com.example.tomas.movieapp;
+package com.example.tomas.movieapp.Service;
 
 /**
  * Created by Tomas on 17-6-2017.
@@ -13,8 +13,6 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.BasicNetwork;
 import com.android.volley.toolbox.DiskBasedCache;
 import com.android.volley.toolbox.HurlStack;
-import com.android.volley.toolbox.ImageLoader;
-import com.android.volley.toolbox.Volley;
 
 public class VolleyRequestQueue {
 
