@@ -19,6 +19,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.example.tomas.movieapp.Domain.MainActivity;
 import com.example.tomas.movieapp.R;
 import com.example.tomas.movieapp.Service.Config;
 import com.example.tomas.movieapp.Service.VolleyRequestQueue;
@@ -74,7 +75,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.btnRegister:
                 Intent main = new Intent(getApplicationContext(), RegisterActivity.class);
                                 startActivity(main);
-                                // Close the current activity
                                 finish();
 
                 break;
@@ -125,10 +125,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                 final String finalToken = sharedPref.getString(context.getString(R.string.saved_token), "dummy default token");
 
                                 //Start the MovieList activity, and close the login activity
-//                                Intent main = new Intent(getApplicationContext(), MovieList.class);
-//                                startActivity(main);
-//                                // Close the current activity
-//                                finish();
+                              Intent main = new Intent(getApplicationContext(), MainActivity.class);
+                               startActivity(main);
+                               // Close the current activity
+                               finish();
 
                             } catch (JSONException e) {
                                 // e.printStackTrace();

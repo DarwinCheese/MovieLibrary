@@ -33,7 +33,7 @@ public class MovieAdapter extends ArrayAdapter<Movie> {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.movielistrow, parent, false);
         }
 
-        // Display album name in list
+
         TextView moviename = (TextView) convertView.findViewById(R.id.NameTextView);
         moviename.setText(movie.getMovietitle());
 

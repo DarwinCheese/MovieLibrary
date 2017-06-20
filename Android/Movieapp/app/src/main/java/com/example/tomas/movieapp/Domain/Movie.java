@@ -15,15 +15,7 @@ public class Movie implements Serializable {
     private int Length;
     private int RentalDuration;
 
-//    public Movie(String Movietitle, String Description, String  ReleaseYear, Double RentalRate, String Rating, int Length, int RentalDuration){
-//        this.Movietitle = Movietitle;
-//        this.Description = Description;
-//        this.ReleaseYear = ReleaseYear;
-//        this.RentalRate = RentalRate;
-//        this.Rating = Rating;
-//        this.Length = Length;
-//        this.RentalDuration = RentalDuration;
-//    }
+
 
     public String getMovietitle() {
         return Movietitle;

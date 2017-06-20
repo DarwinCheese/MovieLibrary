@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Presentation.RegisterActivity" ></activity>
+        <activity android:name=".Domain.MainActivity" ></activity>
     </application>
 
 </manifest>

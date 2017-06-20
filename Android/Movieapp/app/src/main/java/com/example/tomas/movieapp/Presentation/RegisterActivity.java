@@ -71,7 +71,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 //  Checken of username en password niet leeg zijn
                 handleRegister(mREmail, mRFirstName, mRLastName, mRPassword);
 
-                 //Start the Login activity, and close the login activity
+
                                Intent main = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(main);
                 // Close the current activity
