@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:8:5-27:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tomas\.android\build-cache\599c33fcbee1bd2783937db7b99fe347d6737b02\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\975c389c0e04f5231eceb340a10548920ac2a66b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\27ced0839deb8365222e561bdd7e205a9dfaecf7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\42958506f73cdb7419f76184fe1bb5ef26783212\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\c5ac6f9d16b91870a58e0ecc53adcbefa43dc331\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\5a4a5a92843d3e975bcfec441991eaa97491bcc6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\3c2d5a4b501baf544308bac362f64997b8f2de30\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\038f583d4547cdcdb9ce8ef9dd8cf4abe21c30aa\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\d1e4883cc72625e4ca7812fef9df0608cddf92a8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\2a6c30d430b4635a367db7736ac380005baa0920\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\b8f343e233138380315b77e44c37e2ddbf3c00a8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\2a57dd44467b7a4923b1c52f4e0d4c043d16e717\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Tomas\.android\build-cache\f8dc4503da97984528e105860ca32835a33a8a13\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.tomas.movieapp.Presentation.LoginActivity
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:15:9-24:20
+	android:label
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:16:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.tomas.movieapp.Presentation.RegisterActivity
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:25:9-77
+	android:name
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:25:19-64
+activity#com.example.tomas.movieapp.Domain.MainActivity
+ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:26:9-67
+	android:name
+		ADDED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml:26:19-54
+uses-sdk
+INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tomas\.android\build-cache\599c33fcbee1bd2783937db7b99fe347d6737b02\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\975c389c0e04f5231eceb340a10548920ac2a66b\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\27ced0839deb8365222e561bdd7e205a9dfaecf7\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\42958506f73cdb7419f76184fe1bb5ef26783212\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\c5ac6f9d16b91870a58e0ecc53adcbefa43dc331\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\054bbd4be64f27787035d1f4e30fb3fe0905681f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\5a4a5a92843d3e975bcfec441991eaa97491bcc6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\3c2d5a4b501baf544308bac362f64997b8f2de30\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\038f583d4547cdcdb9ce8ef9dd8cf4abe21c30aa\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\d1e4883cc72625e4ca7812fef9df0608cddf92a8\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\2a6c30d430b4635a367db7736ac380005baa0920\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\b8f343e233138380315b77e44c37e2ddbf3c00a8\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\2a57dd44467b7a4923b1c52f4e0d4c043d16e717\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Tomas\.android\build-cache\f8dc4503da97984528e105860ca32835a33a8a13\output\AndroidManifest.xml:7:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\975c389c0e04f5231eceb340a10548920ac2a66b\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\975c389c0e04f5231eceb340a10548920ac2a66b\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\27ced0839deb8365222e561bdd7e205a9dfaecf7\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\42958506f73cdb7419f76184fe1bb5ef26783212\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\c5ac6f9d16b91870a58e0ecc53adcbefa43dc331\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\054bbd4be64f27787035d1f4e30fb3fe0905681f\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\5a4a5a92843d3e975bcfec441991eaa97491bcc6\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\3c2d5a4b501baf544308bac362f64997b8f2de30\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\038f583d4547cdcdb9ce8ef9dd8cf4abe21c30aa\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\d1e4883cc72625e4ca7812fef9df0608cddf92a8\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\2a6c30d430b4635a367db7736ac380005baa0920\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\b8f343e233138380315b77e44c37e2ddbf3c00a8\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\2a57dd44467b7a4923b1c52f4e0d4c043d16e717\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\975c389c0e04f5231eceb340a10548920ac2a66b\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Tomas\.android\build-cache\975c389c0e04f5231eceb340a10548920ac2a66b\output\AndroidManifest.xml:26:9-47
