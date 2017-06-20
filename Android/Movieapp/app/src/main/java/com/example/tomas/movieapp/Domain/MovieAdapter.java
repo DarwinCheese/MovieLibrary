@@ -35,8 +35,8 @@ public class MovieAdapter extends ArrayAdapter<Movie> {
         }
 
         // Display album name in list
-        TextView albumName = (TextView) convertView.findViewById(R.id.NameTextView);
-        albumName.setText(movie.getMovietitle());
+        TextView moviename = (TextView) convertView.findViewById(R.id.NameTextView);
+        moviename.setText(movie.getMovietitle());
 
 
 
