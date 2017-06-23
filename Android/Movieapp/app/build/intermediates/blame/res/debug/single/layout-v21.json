@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]
