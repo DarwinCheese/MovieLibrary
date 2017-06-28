@@ -1,7 +1,7 @@
 {
     "webPort": "3000",
-    "dbHost": "localhost",
-    "dbUser": "movielibrary_user",
-    "dbDatabase": "movielibrary",
-    "secretkey": "een lange complexe tekst die moeilijk te raden is"
+    "dbHost": "146.185.130.82",
+    "dbUser": "1015",
+    "dbDatabase": "1015",
+    "secretkey": "secret"
 }

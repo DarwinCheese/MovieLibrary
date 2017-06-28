@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\src\debug\shaders"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="C:\dev\MovieLibrary\Android\Movieapp\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\dev\MovieLibrary\Android\Movieapp\app\src\debug\shaders"/></dataSet></merger>
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6

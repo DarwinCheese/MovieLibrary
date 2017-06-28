@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
         "source": "C:\\Users\\Tomas\\.android\\build-cache\\975c389c0e04f5231eceb340a10548920ac2a66b\\output\\res\\color\\design_error.xml"
     },
@@ -86,5 +87,93 @@
     {
         "merged": "C:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
         "source": "C:\\Users\\Tomas\\.android\\build-cache\\27ced0839deb8365222e561bdd7e205a9dfaecf7\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+=======
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\c8b913c086f51a2da1468b18e2376b20168043c8\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\c8b913c086f51a2da1468b18e2376b20168043c8\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color\\abc_tint_edittext.xml"
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
     }
 ]

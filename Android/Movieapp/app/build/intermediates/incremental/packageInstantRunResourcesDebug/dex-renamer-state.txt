@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 #Tue Jun 20 11:41:30 CEST 2017
+=======
+#Mon Jun 19 15:17:30 CEST 2017
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6

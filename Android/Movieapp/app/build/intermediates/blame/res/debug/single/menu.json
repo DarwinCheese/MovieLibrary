@@ -1,6 +1,11 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_login.xml",
         "source": "C:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\src\\main\\res\\menu\\menu_login.xml"
+=======
+        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_login.xml",
+        "source": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\src\\main\\res\\menu\\menu_login.xml"
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
     }
 ]

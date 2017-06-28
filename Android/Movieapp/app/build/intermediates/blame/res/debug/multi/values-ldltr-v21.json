@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+=======
+        "outputFile": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 163
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Tomas\\.android\\build-cache\\27ced0839deb8365222e561bdd7e205a9dfaecf7\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+=======
+                    "file": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

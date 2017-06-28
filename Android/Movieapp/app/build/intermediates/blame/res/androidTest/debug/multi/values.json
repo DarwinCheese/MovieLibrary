@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+=======
+        "outputFile": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 96
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Tomas\\.android\\build-cache\\26e3dd5b58223c81f2d553f55f56bb796b7c8566\\output\\res\\values\\values.xml",
+=======
+                    "file": "C:\\Users\\Darwin\\.android\\build-cache\\f4071211ee3f8db267f763c890424b68adbb11cd\\output\\res\\values\\values.xml",
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

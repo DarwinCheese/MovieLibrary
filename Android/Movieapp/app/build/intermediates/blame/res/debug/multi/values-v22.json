@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+=======
+        "outputFile": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 125
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Tomas\\.android\\build-cache\\27ced0839deb8365222e561bdd7e205a9dfaecf7\\output\\res\\values-v22\\values-v22.xml",
+=======
+                    "file": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\values-v22\\values-v22.xml",
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +38,11 @@
                     "endOffset": 212
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Tomas\\.android\\build-cache\\27ced0839deb8365222e561bdd7e205a9dfaecf7\\output\\res\\values-v22\\values-v22.xml",
+=======
+                    "file": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\values-v22\\values-v22.xml",
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +62,11 @@
                     "endOffset": 548
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Tomas\\.android\\build-cache\\27ced0839deb8365222e561bdd7e205a9dfaecf7\\output\\res\\values-v22\\values-v22.xml",
+=======
+                    "file": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\values-v22\\values-v22.xml",
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +87,11 @@
                     "endOffset": 896
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Tomas\\.android\\build-cache\\27ced0839deb8365222e561bdd7e205a9dfaecf7\\output\\res\\values-v22\\values-v22.xml",
+=======
+                    "file": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\values-v22\\values-v22.xml",
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

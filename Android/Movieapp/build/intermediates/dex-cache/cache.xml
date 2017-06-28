@@ -3,6 +3,7 @@
 
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="C:\Users\Tomas\.android\build-cache\5a4a5a92843d3e975bcfec441991eaa97491bcc6\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -162,6 +163,167 @@
         revision="26.0.0"
         sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
         <dex dex="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_968df8f7f4997d92f5287cfce1308dfcee528d1f\classes.dex" />
+=======
+        jar="C:\Users\Darwin\.android\build-cache\0a281a20f4b4f5fa683365ceb8bde7e1fbc2dbc3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4d0649791c64a9e4dfe056b1c4dc4f35266f1d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\8490cbf26f34f2a2852ac37cedcc9be219d4dfa0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da0ff4153d61636dc80b3aeb3346b368043f43a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="057de3a3d3afdbec185ae57d3909aa407cc96f6e">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5a1fb7d9c93763fc68974408f1ff96170e7f3e72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_14ed682985b435eeb1017c30e0cb181a16edc643\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\a37ce0ff1bd4c9ad6ebefebe4d2ffc57090e4a92\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_89f4c299f0c41e24dbd3bf62082a3d600f8e5cf0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\76872ff66a6f898dc691e17bac723255056292b1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7cbce47fe4ad74cfee612587a2f1cdf54236c981\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\c790f14bb612e979fd17eb1fe8cb003f5fb25ff7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec160cca63561049b9f60f36d721054ece99fdc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\0d1f9fdecc06024a8161aaa1c4f74f05c09e7965\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8165cdb0fed27ad8f02e5a8fee21ec9ffd3681f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\d4277f416f7a75a7307397e4c919dd2c54260da8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0bfbbaceb5d1f9de17ea30558738fe1353103459\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\18b8c18f7df478a4916f452415721a5399bef1ea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e812578fe7548e75c88c8956d2500c7847da8784\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_0bc98069c935e11937fe3a5760081356fc7af378\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\3b4645ae4dc4d06cdf804e459dcae376754ff353\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d7d50a03f0e1bc8fa497abe0c88c9aab97636037\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0eccef7ea102cd85d33c2095a024de79017e3c1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\c8b913c086f51a2da1468b18e2376b20168043c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43c22e675ba876c270538fe68dd9d4c00687847c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\d8cd223049854492ea05dbbed6d7128f8b210923\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_99df9b5a8ea4859674cc428f6ed1381b5b5d2b9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\f2bb953dc616ed2636825af2a9eaf29782786719\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_159cc20604f766f8b2ad1149548bee1f251dc92a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\416f6def13b162dadd5dee4e28d6f68c2667ea23\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_435cf0eddb82c077addbe11cdaa0ce304081e310\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Darwin\.android\build-cache\e038ed810ca8c4c0b0e30e55fe067902431032ac\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d14df9eb90bc5a1b60550ea32e9c8bd95555e9a3\classes.dex" />
+>>>>>>> 485cfad1a4bd100ffb425287a996b3416dee65d6
     </item>
 
 </items>
