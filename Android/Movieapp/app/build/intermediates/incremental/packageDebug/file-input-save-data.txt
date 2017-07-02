@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jul 02 10:49:38 CEST 2017
+#Sun Jul 02 11:07:07 CEST 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_slide_out_bottom.xml
 14.set=ANDROID_RESOURCE

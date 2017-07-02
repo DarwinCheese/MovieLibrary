@@ -1,4 +1,4 @@
-#Sun Jul 02 10:49:38 CEST 2017
+#Sun Jul 02 11:07:07 CEST 2017
 base.0=C\:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_01041b22174a655162adddff2726b43e8f2a786b
 renamed.1=classes2.dex
 renamed.0=classes.dex
