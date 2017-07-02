@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
 
         mMovieListView = (ListView) findViewById(R.id.MovieListView);
 
-        mMovieAdapter = new MovieAdapter(this,mMovieArray);
+        mMovieAdapter = new MovieAdapter(this, getLayoutInflater(),mMovieArray);
 
         mMovieListView.setAdapter(mMovieAdapter);
 

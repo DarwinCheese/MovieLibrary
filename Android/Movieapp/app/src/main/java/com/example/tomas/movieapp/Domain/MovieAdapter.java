@@ -17,11 +17,13 @@ import java.util.ArrayList;
 
 public class MovieAdapter extends ArrayAdapter<Movie> {
     private Context context;
+    private LayoutInflater mInflator;
 
-    public MovieAdapter(Context context, ArrayList<Movie> Movies) {
+    public MovieAdapter(Context context, LayoutInflater layoutInflater, ArrayList<Movie> Movies) {
         super(context, 0, Movies);
 
         this.context = context;
+        this.mInflator = layoutInflater;
     }
 
     @Override
@@ -30,7 +32,7 @@ public class MovieAdapter extends ArrayAdapter<Movie> {
        Movie movie = getItem(position);
 
         if( convertView == null ) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.movielistrow, parent, false);
+            convertView = mInflator.inflate(R.layout.movielistrow, parent, false);
         }
 
 
