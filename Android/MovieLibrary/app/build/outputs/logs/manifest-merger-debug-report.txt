@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Darwin\.android\build-cache\e39114a2d1b0ac6845c474cccf402b459604738d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Darwin\.android\build-cache\299cdac8973f852ae6a3a322f1ad38e9db4c0baf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Darwin\.android\build-cache\31169c78842999af9c5b23298bdd56e11e7198ba\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Darwin\.android\build-cache\057a0319882b776b71a3ddbe7448dc705c05333f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Darwin\.android\build-cache\7b97c862da18de552b7dc5c61832e87b6a176130\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Darwin\.android\build-cache\60aaccea28bb749d82277c3bdabef0c68aebcdc6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Darwin\.android\build-cache\ce08ab727e06743b3f97e60e9387b86c4be09e0c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Darwin\.android\build-cache\659f35558a2765af6e54c8f5315bd5b21d802ad7\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Darwin\.android\build-cache\6b33c116db95f28523e739eb797e590af5e50d37\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Darwin\.android\build-cache\b561cb11dde73eb703f2a94b4dfa6badab6dc4ca\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.tomas.movielibrary.MainActivity
+ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Darwin\.android\build-cache\e39114a2d1b0ac6845c474cccf402b459604738d\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Darwin\.android\build-cache\299cdac8973f852ae6a3a322f1ad38e9db4c0baf\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Darwin\.android\build-cache\31169c78842999af9c5b23298bdd56e11e7198ba\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Darwin\.android\build-cache\057a0319882b776b71a3ddbe7448dc705c05333f\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Darwin\.android\build-cache\7b97c862da18de552b7dc5c61832e87b6a176130\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Darwin\.android\build-cache\60aaccea28bb749d82277c3bdabef0c68aebcdc6\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Darwin\.android\build-cache\ce08ab727e06743b3f97e60e9387b86c4be09e0c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Darwin\.android\build-cache\659f35558a2765af6e54c8f5315bd5b21d802ad7\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Darwin\.android\build-cache\6b33c116db95f28523e739eb797e590af5e50d37\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Darwin\.android\build-cache\b561cb11dde73eb703f2a94b4dfa6badab6dc4ca\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Darwin\.android\build-cache\e39114a2d1b0ac6845c474cccf402b459604738d\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\MovieLibrary\Android\MovieLibrary\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Darwin\.android\build-cache\e39114a2d1b0ac6845c474cccf402b459604738d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Darwin\.android\build-cache\299cdac8973f852ae6a3a322f1ad38e9db4c0baf\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Darwin\.android\build-cache\31169c78842999af9c5b23298bdd56e11e7198ba\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Darwin\.android\build-cache\057a0319882b776b71a3ddbe7448dc705c05333f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Darwin\.android\build-cache\7b97c862da18de552b7dc5c61832e87b6a176130\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Darwin\.android\build-cache\60aaccea28bb749d82277c3bdabef0c68aebcdc6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Darwin\.android\build-cache\ce08ab727e06743b3f97e60e9387b86c4be09e0c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Darwin\.android\build-cache\659f35558a2765af6e54c8f5315bd5b21d802ad7\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Darwin\.android\build-cache\6b33c116db95f28523e739eb797e590af5e50d37\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Darwin\.android\build-cache\e39114a2d1b0ac6845c474cccf402b459604738d\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Darwin\.android\build-cache\e39114a2d1b0ac6845c474cccf402b459604738d\output\AndroidManifest.xml:26:9-47

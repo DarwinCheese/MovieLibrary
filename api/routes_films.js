@@ -21,7 +21,7 @@ routes.get('/films', function(req, res){
         	})
         	console.log(offset, count);
         }else{
-        	res.json(results);
+        	res.json({ result: results });
         	console.log(offset, count);
         }
 	});
@@ -41,7 +41,7 @@ routes.get('/films/:filmid', function(req, res){
         }else{
         	if(results.length > 0){
         		//console.log(results);
-        		res.json(results);
+        		res.json({ result: results });
         	}else{
         		//console.log(filmId);
         		res.send({

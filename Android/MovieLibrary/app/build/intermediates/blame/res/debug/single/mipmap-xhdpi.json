@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\MovieLibrary\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\dev\\MovieLibrary\\Android\\MovieLibrary\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\dev\\MovieLibrary\\Android\\MovieLibrary\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\dev\\MovieLibrary\\Android\\MovieLibrary\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    }
+]
