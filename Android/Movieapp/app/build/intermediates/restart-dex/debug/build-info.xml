@@ -2,87 +2,44 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="COLD"
-    density="420dpi"
+    build-mode="FULL"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1497878730795"
-    token="-6497340768939046532"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="1498985362688"
+    token="-4362438248694097381"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="277" />
+        duration="3927" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="14" />
+        duration="695" />
     <task
         name="verifier"
-        duration="10" />
+        duration="242" />
 
     <artifact
-        location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1497876394642"
+        timestamp="1498985362688"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Tomas\Programmerententamen\MovieLibrary\Android\Movieapp\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1497878247196"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1497878730795"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\dev\MovieLibrary\Android\Movieapp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

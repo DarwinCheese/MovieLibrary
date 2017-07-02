@@ -1,15 +1,7 @@
 [
     {
-        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\Tomas\\.android\\build-cache\\27ced0839deb8365222e561bdd7e205a9dfaecf7\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "C:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\Darwin\\.android\\build-cache\\f2bb953dc616ed2636825af2a9eaf29782786719\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",

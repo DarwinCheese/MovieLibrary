@@ -1,7 +1,7 @@
-#Mon Jun 19 15:17:31 CEST 2017
-base.0=C\:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5a1fb7d9c93763fc68974408f1ff96170e7f3e72
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0eccef7ea102cd85d33c2095a024de79017e3c1a\\classes.dex
-base.1=C\:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0eccef7ea102cd85d33c2095a024de79017e3c1a
-file.0=C\:\\dev\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5a1fb7d9c93763fc68974408f1ff96170e7f3e72\\classes.dex
+#Sun Jul 02 10:49:38 CEST 2017
+base.0=C\:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_01041b22174a655162adddff2726b43e8f2a786b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a0b71dc191a5554d27156c5860c8847d6acac3c5\\classes.dex
+base.1=C\:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a0b71dc191a5554d27156c5860c8847d6acac3c5
+file.0=C\:\\Users\\Tomas\\Programmerententamen\\MovieLibrary\\Android\\Movieapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_01041b22174a655162adddff2726b43e8f2a786b\\classes.dex
