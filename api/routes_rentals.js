@@ -29,9 +29,9 @@ routes.get('/rentals/:userid', function(req, res){
 	});
 });
 
-routes.post('/rentals/:userid/:inventoryid', function(req, res){
+routes.post('/rentals/:userid/:filmid', function(req, res){
 	var userID = req.params.userid;
-	var inventoryID = req.params.inventoryid;
+	var filmID = req.params.filmid;
 
 	//Create Date
     var currentdate = new Date(); 
@@ -44,16 +44,10 @@ routes.post('/rentals/:userid/:inventoryid', function(req, res){
 
 	var rental_date = datetime;   
 
-    var rental = {
-        "rental_date": rental_date,
-        "inventory_id": inventoryID,
-        "customer_id": userID,
-        "staff_id": 1,
-        "last_update": datetime
-    }
+    
 
-	db.query('SELECT * FROM rental WHERE customer_id = ? AND inventory_id = ?', [userID, inventoryID], function (error, results, fields) {
-        if (error) {
+    db.query('SELECT * FROM inventory WHERE film_id = ? AND store_id = 1', [filmID], function(error, results, fields){
+    	if (error) {
         	//console.log(error);
             res.send({
               "Code":400,
@@ -61,31 +55,54 @@ routes.post('/rentals/:userid/:inventoryid', function(req, res){
             })
         }else{
             if(results.length > 0){
-                res.send({
-                    "Code":400,
-                    "Error":"You already rented this film"
-                })
-            }else{
-                //insert rental
-                db.query('INSERT INTO rental SET ?', rental, function (error, results, fields) {
-                    if (error) {
-                        console.log("error occurred",error);
-                        res.send({
-                            "code":400,
-                            "failed":"error occurred"
-                        })
-                    }else{
-                        //console.log('The solution is: ', results);
-                        res.send({
-                            "code":200,
-                            "success":"Film rented successfully"
-                        });
-                    }
-                });
+                var inventoryID = results[0].inventory_id;
+
+		    	var rental = {
+		        	"rental_date": rental_date,
+		        	"inventory_id": inventoryID,
+		        	"customer_id": userID,
+		        	"staff_id": 1,
+		        	"last_update": datetime
+		    	}
+
+		    	db.query('SELECT * FROM rental WHERE customer_id = ? AND inventory_id = ?', [userID, inventoryID], function (error, results, fields) {
+			        if (error) {
+			        	//console.log(error);
+			            res.send({
+			              "Code":400,
+			              "Error":"An error has ocurred"
+			            })
+			        }else{
+			            if(results.length > 0){
+			                res.send({
+			                    "Code":400,
+			                    "Error":"You already rented this film"
+			                })
+			            }else{
+			                //insert rental
+			                db.query('INSERT INTO rental SET ?', rental, function (error, results, fields) {
+			                    if (error) {
+			                        console.log("error occurred",error);
+			                        res.send({
+			                            "code":400,
+			                            "failed":"error occurred"
+			                        })
+			                    }else{
+			                        //console.log('The solution is: ', results);
+			                        res.send({
+			                            "code":200,
+			                            "success":"Film rented successfully"
+			                        });
+			                    }
+			                });
+			            }
+			        }
+			    });
             }
         }
     });
-});
+
+	
 
 routes.put('/rentals/:userid/:inventoryid', function(req, res){
 	res.contentType('application/json');
