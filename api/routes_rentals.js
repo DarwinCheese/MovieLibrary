@@ -101,6 +101,7 @@ routes.post('/rentals/:userid/:filmid', function(req, res){
             }
         }
     });
+}
 
 	
 
